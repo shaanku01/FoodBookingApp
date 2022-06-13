@@ -1,0 +1,132 @@
+{
+  "users": [
+    {
+      "userid": "Shaanku",
+      "password": "1234",
+      "role": "user"
+    },
+    {
+      "userid": "Vineet",
+      "password": "1234",
+      "role": "restaurant",
+      "restaurantid": 1
+    },
+    {
+      "userid": "kalyan",
+      "password": "1234",
+      "role": "user"
+    }
+  ],
+  "foods": [
+    {
+      "id": 1,
+      "name": "Chicken Biriyani",
+      "cusine": "Indian",
+      "url": "https://www.cubesnjuliennes.com/wp-content/uploads/2020/07/Chicken-Biryani-Recipe-500x500.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Tandoori Chicken",
+      "cusine": "Indian",
+      "url": "https://ministryofcurry.com/wp-content/uploads/2021/11/air-fryer-whole-tandoori-chicken_-2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Noodles",
+      "cusine": "Chinese",
+      "url": "https://static.toiimg.com/thumb/59789125.cms?width=1200&height=900"
+    },
+    {
+      "id": 4,
+      "name": "Chicken Manchurian",
+      "cusine": "Chinese",
+      "url": "https://www.indianhealthyrecipes.com/wp-content/uploads/2015/07/chicken-manchurian-1.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Pizza",
+      "cusine": "italian",
+      "url": "https://www.vegrecipesofindia.com/wp-content/uploads/2020/11/pizza-recipe-2-500x375.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Pasta",
+      "cusine": "italian",
+      "url": "https://www.budgetbytes.com/wp-content/uploads/2013/07/Creamy-Tomato-Spinach-Pasta-close.jpg"
+    }
+  ],
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Vivah Bhojanambu",
+      "rating": "4.5",
+      "url": "https://image3.mouthshut.com/images/imagesp/925882515s.png",
+      "location": "Jublie Hills , Hyderabad"
+    },
+    {
+      "id": 2,
+      "name": "AnTeRa",
+      "rating": "4.2",
+      "url": "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/9/j/y/p94145-162696013160f97103d4056.jpg?tr=tr:n-xlarge",
+      "location": "Jublie Hills , Hyderabad"
+    },
+    {
+      "id": 3,
+      "name": "SPG GRAND",
+      "rating": "4.1",
+      "url": "https://media.weddingz.in/images/1acaa95b89a5e14370fc8b4c36e8c438/spg-grand-banquets-karmanghat-hyderabad-1.jpg",
+      "location": "Kompally , Hyderabad"
+    },
+    {
+      "id": 4,
+      "name": "Pista House",
+      "rating": "4.4",
+      "url": "https://img4.nbstatic.in/tr:w-500/5bbdde52cff47e000dfa3e8d.jpg",
+      "location": "tolichoki , Hyderabad"
+    }
+  ],
+  "orders": [
+    {
+      "userid": "Shaanku",
+      "role": "user",
+      "foods": [
+        1,
+        4
+      ],
+      "restaurant": [
+        1,
+        4
+      ],
+      "id": 1
+    },
+    {
+      "userid": "Shaanku",
+      "role": "user",
+      "foods": [
+        5,
+        6
+      ],
+      "restaurant": [
+        1,
+        2,
+        3
+      ],
+      "id": 2
+    },
+    {
+      "userid": "kalyan",
+      "role": "user",
+      "foods": [
+        2,
+        4,
+        6
+      ],
+      "restaurant": [
+        4,
+        3,
+        1
+      ],
+      "id": 3
+    }
+  ]
+}
